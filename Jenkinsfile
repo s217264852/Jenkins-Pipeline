@@ -96,6 +96,7 @@ pipeline {
             steps {
                 echo 'Deploying the application to a production server.'
                 echo 'Tool: AWS EC2 for the production server'
+                echo 'This is my comment.'
             }
         }
     }
